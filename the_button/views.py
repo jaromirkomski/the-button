@@ -8,5 +8,5 @@ def home(request):
     return render(request, "index.html")
 
 
-def ping(request):
+def ping_borken(request):
     return JsonResponse({"message": f"pong {time.time()}"})
